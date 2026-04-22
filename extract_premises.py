@@ -18,8 +18,8 @@ class StrategyQAPremises(BaseModel):
     surfaced_premises: list[str]
 
 # File paths
-input_file = "question_samples/strategyqa_sample_150.jsonl"
-output_file = "question_samples/strategyqa_premises_150.jsonl"
+input_file = "unperturbed_questions/strategyqa_sample_150.jsonl"
+output_file = "unperturbed_questions/strategyqa_premises_150.jsonl"
 
 system_prompt = """You are an expert logician assisting with an NLP research project focused on Argumentation Theory. 
 Your task is to analyze a multi-hop question, its ground truth answer, and the provided facts. 
